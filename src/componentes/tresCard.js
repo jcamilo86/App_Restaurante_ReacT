@@ -2,26 +2,26 @@ import React from "react";
 import Card from "./carts";
 import carne from "../componentes/imagenes/carne.jpg";
 import ensaladas from "../componentes/imagenes/ensaladas.jpg";
-import pasta from "../componentes/imagenes/pastas.jpg.jpg";
+import pasta from "../componentes/imagenes/pastas.jpg";
 
-const Card = [
+const card = [
   {
     id: 1,
     title: "Carne asada",
     image: carne,
-    parrafo:rica
+    parrafo:"rica"
   },
   {
     id: 2,
     title: "tabla de ensaldas",
     image: ensaladas,
-    parrafo:saludable
+    parrafo:"saludable"
   },
   {
     id: 3,
     title: "Pastas",
     image: pasta,
-    parrafo:deliciosa
+    parrafo:"deliciosa"
 
   },
 ];
@@ -30,7 +30,7 @@ const TresCard = () => {
   return (
     <div className="container">
       <div className="row">
-        {Card.map((card) => (
+        {card.map((card) => (
           <div className="col-md-4" key={card.id }>
             <Card title={card.title} image={card.image} parrafo={card.parrafo}/>
           </div>

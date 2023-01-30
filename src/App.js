@@ -1,13 +1,12 @@
 import Menu from "./componentes/menu"
 import './App.css';
-import  "./componentes/carts"
-import Card from "./componentes/carts";
+import TresCard from "./componentes/tresCard";
 
 function App() {
   return (
     <div className="App">
     <Menu/>
-    <Card/>
+    <TresCard/>
     </div>
   );
 }

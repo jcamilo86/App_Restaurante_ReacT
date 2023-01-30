@@ -3,7 +3,7 @@ import "./imagenes/hoja-stilo/stilo.css"
 
 
 const Card=({title, image,parrafo})=>{
-
+return( 
    <div className="Card">
 <img src={ image }  alt=""/>
 <div className="card-body">
@@ -12,6 +12,8 @@ const Card=({title, image,parrafo})=>{
 </div>
 
 </div>
+)
+
     
 }
 export default Card;
