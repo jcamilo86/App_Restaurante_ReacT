@@ -9,30 +9,34 @@ const card = [
     id: 1,
     title: "Carne asada",
     image: carne,
-    parrafo:"rica"
+    parrafo:"rica",
+    precio:"$42.000"
   },
   {
     id: 2,
     title: "tabla de ensaldas",
     image: ensaladas,
-    parrafo:"saludable"
+    parrafo:"saludable",
+    precio:"$23.000"
   },
   {
     id: 3,
     title: "Pastas",
     image: pasta,
-    parrafo:"deliciosa"
+    parrafo:"deliciosa",
+    precio:"$33.000"
 
   },
 ];
 
 const TresCard = () => {
   return (
-    <div className="container">
+    <div className="container ">
       <div className="row">
         {card.map((card) => (
           <div className="col-md-4" key={card.id }>
-            <Card title={card.title} image={card.image} parrafo={card.parrafo}/>
+            <Card title={card.title} image={card.image} parrafo={card.parrafo} precio={card.precio} />
+            
           </div>
         ))}
       </div>
