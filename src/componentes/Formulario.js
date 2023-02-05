@@ -35,9 +35,10 @@ function Formulario() {
    const guardarClick=()=>{
     console.log( nombre,email,solicitud)
   }
-
+ 
 
   return (
+    
     <div className='contendor-fomulario'>
  
  
@@ -69,9 +70,9 @@ placeholder="tipo de solicitud" value={solicitud} onChange={guarSolicitud}></tex
     </div>
 
 <div className='contacto'>
+<br/>
+<br/>
 
-<br/>
-<br/>
 <h4 color>Contacta con nosotros</h4>
 <br/>
 <h4 className='color'>Telefono:</h4>
@@ -80,11 +81,13 @@ placeholder="tipo de solicitud" value={solicitud} onChange={guarSolicitud}></tex
 <br/>
 <h4 className='color'>Email:</h4>
 <p>restaureterico@gamil.com</p>
+
 </div>
 
 
+
     </div>
- 
+    
 
   )
 }

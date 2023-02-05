@@ -92,3 +92,36 @@ textarea{
 .btn :hover{
   color: #89fc00;
 }
+/* -------------------responsive--------------- */
+
+@media  screen and (max-width:680px) {
+  .menu{ flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .imagen-menu{
+    width: 350px;
+    height: 300px;
+    margin-left: 70px;
+  }
+.Card{
+  flex-direction: column;
+ } 
+ .container{
+  flex-direction: column;
+ }
+.row{
+  flex-direction: column;
+}
+.BBaneer{
+
+  width: 470px;
+  height: 300px;
+  margin-left: 70px;
+ }
+ .contendor-fomulario{
+  flex-direction: column;
+ }
+
+
+ }
+ 
