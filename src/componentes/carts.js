@@ -11,7 +11,6 @@ return(
 <p className="card-text text-segundari"> {parrafo} </p>
 <p className="card-text text-tres"> {precio} </p>
 <div className="comprar">
-<a href="#">Se te antoja <ion-icon name="cart-outline"></ion-icon></a>
 </div>
 
 

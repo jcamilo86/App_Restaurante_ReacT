@@ -9,6 +9,7 @@ function Baner() {
        <h1>Nostros </h1>
        <div className="contenendor-para_baner">
          <img
+         alt=""
            className="contendor-imagen"
            src={require("./imagenes/Parar_BBaner.png")}
          />

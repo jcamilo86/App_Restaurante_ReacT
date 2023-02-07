@@ -1,6 +1,6 @@
 import React from "react";
 import "./imagenes/hoja-stilo/stilo.css"
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
